@@ -1,0 +1,37 @@
+.card{
+    list-style: none;
+    background: #2b2929;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+}
+
+.linkPost {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.linkPost:hover {
+    color: #0070f3;
+}
+
+.btn-post{
+    background: #0070f3;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-post:hover {
+    background: #0056b7;
+}
